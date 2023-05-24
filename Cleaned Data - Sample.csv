@@ -1,0 +1,21 @@
+Order ID,Product,Quantity Ordered,Price Each,Order Date,Purchase Address,Total Sales,Order Time,Street,City,State Zip,State,Zip
+176558,USB-C Charging Cable,2,11.95,2019-04-19,"917 1st St, Dallas, TX 75001",23.9,08:46:00,917 1st St, Dallas, TX 75001,TX,75001
+176559,Bose SoundSport Headphones,1,99.99,2019-04-07,"682 Chestnut St, Boston, MA 02215",99.99,22:30:00,682 Chestnut St, Boston, MA 02215,MA,02215
+176560,Google Phone,1,600.0,2019-04-12,"669 Spruce St, Los Angeles, CA 90001",600.0,14:38:00,669 Spruce St, Los Angeles, CA 90001,CA,90001
+176560,Wired Headphones,1,11.99,2019-04-12,"669 Spruce St, Los Angeles, CA 90001",11.99,14:38:00,669 Spruce St, Los Angeles, CA 90001,CA,90001
+176561,Wired Headphones,1,11.99,2019-04-30,"333 8th St, Los Angeles, CA 90001",11.99,09:27:00,333 8th St, Los Angeles, CA 90001,CA,90001
+176562,USB-C Charging Cable,1,11.95,2019-04-29,"381 Wilson St, San Francisco, CA 94016",11.95,13:03:00,381 Wilson St, San Francisco, CA 94016,CA,94016
+176563,Bose SoundSport Headphones,1,99.99,2019-04-02,"668 Center St, Seattle, WA 98101",99.99,07:46:00,668 Center St, Seattle, WA 98101,WA,98101
+176564,USB-C Charging Cable,1,11.95,2019-04-12,"790 Ridge St, Atlanta, GA 30301",11.95,10:58:00,790 Ridge St, Atlanta, GA 30301,GA,30301
+176565,Macbook Pro Laptop,1,1700.0,2019-04-24,"915 Willow St, San Francisco, CA 94016",1700.0,10:38:00,915 Willow St, San Francisco, CA 94016,CA,94016
+176566,Wired Headphones,1,11.99,2019-04-08,"83 7th St, Boston, MA 02215",11.99,14:05:00,83 7th St, Boston, MA 02215,MA,02215
+176567,Google Phone,1,600.0,2019-04-18,"444 7th St, Los Angeles, CA 90001",600.0,17:18:00,444 7th St, Los Angeles, CA 90001,CA,90001
+176568,Lightning Charging Cable,1,14.95,2019-04-15,"438 Elm St, Seattle, WA 98101",14.95,12:18:00,438 Elm St, Seattle, WA 98101,WA,98101
+176569,27in 4K Gaming Monitor,1,389.99,2019-04-16,"657 Hill St, Dallas, TX 75001",389.99,19:23:00,657 Hill St, Dallas, TX 75001,TX,75001
+176570,AA Batteries (4-pack),1,3.84,2019-04-22,"186 12th St, Dallas, TX 75001",3.84,15:09:00,186 12th St, Dallas, TX 75001,TX,75001
+176571,Lightning Charging Cable,1,14.95,2019-04-19,"253 Johnson St, Atlanta, GA 30301",14.95,14:29:00,253 Johnson St, Atlanta, GA 30301,GA,30301
+176572,Apple Airpods Headphones,1,150.0,2019-04-04,"149 Dogwood St, New York City, NY 10001",150.0,20:30:00,149 Dogwood St, New York City, NY 10001,NY,10001
+176573,USB-C Charging Cable,1,11.95,2019-04-27,"214 Chestnut St, San Francisco, CA 94016",11.95,18:41:00,214 Chestnut St, San Francisco, CA 94016,CA,94016
+176574,Google Phone,1,600.0,2019-04-03,"20 Hill St, Los Angeles, CA 90001",600.0,19:42:00,20 Hill St, Los Angeles, CA 90001,CA,90001
+176574,USB-C Charging Cable,1,11.95,2019-04-03,"20 Hill St, Los Angeles, CA 90001",11.95,19:42:00,20 Hill St, Los Angeles, CA 90001,CA,90001
+176575,AAA Batteries (4-pack),1,2.99,2019-04-27,"433 Hill St, New York City, NY 10001",2.99,00:30:00,433 Hill St, New York City, NY 10001,NY,10001

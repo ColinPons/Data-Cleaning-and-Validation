@@ -58,6 +58,10 @@ def output_to_file(df:pd.DataFrame) -> None:
 
     df.to_parquet(output_file)
 
+    output_file = os.path.join(os.getcwd(), "Cleaned Data - Sample.csv")
+
+    df.head(20).to_csv(output_file, index=False)
+
     print(f"Output file created: {output_file}")
 
 def main() -> None:
