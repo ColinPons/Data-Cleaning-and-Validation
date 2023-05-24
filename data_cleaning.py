@@ -29,8 +29,17 @@ def create_dataframe(zip_file:str) -> pd.DataFrame:
 
 def format_dataframe(df:pd.DataFrame) -> pd.DataFrame:
 
-    df["Quantity Ordered"] = df["Quantity Ordered"].fillna(0).astype(int)
-    df["Price Each"] = df["Price Each"].fillna(0.00).astype(float)
+    # Set specific datatypes
+    df["Quantity Ordered"] = df["Quantity Ordered"].fillna(0).astype("int8")
+    df["Price Each"] = df["Price Each"].fillna(0.00).astype("float32")
+
+    # Round prices to 2 decimals
+    df["Price Each"] = df["Price Each"].apply(lambda x: round(x, 2))
+
+    # Add total sales
+    df["Total Sales"] = df["Price Each"] * df["Quantity Ordered"]
+
+    # Format order date
     df["Order Date"] = pd.to_datetime(df["Order Date"], errors='coerce')
 
     # Split the order date out to two seperate columns
@@ -43,6 +52,14 @@ def format_dataframe(df:pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def output_to_file(df:pd.DataFrame) -> None:
+
+    output_file = os.path.join(os.getcwd(), "Cleaned Data.parquet")
+
+    df.to_parquet(output_file)
+
+    print(f"Output file created: {output_file}")
+
 def main() -> None:
 
     source_archive = os.path.join(os.getcwd(), "archive.zip")
@@ -51,12 +68,7 @@ def main() -> None:
 
     df = format_dataframe(df=df)
 
-    print(df.head())
-
-
-
-
-
+    output_to_file(df=df)
 
 if __name__ == "__main__":
     main()
